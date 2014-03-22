@@ -1,0 +1,20 @@
+{
+	"name": "lightster/lstr-silex-controller",
+	"description": "Lstr/Silex/Controller Library",
+	"keywords": [
+		"silex",
+		"lstr",
+		"lightster",
+		"controller"
+	],
+	"homepage": "http://lightdatasys.com",
+	"autoload": {
+		"psr-0": {
+			"Lstr\\Silex\\Controller\\": "src/Lstr/Silex"
+		}
+	},
+	"require": {
+		"php": ">=5.3",
+		"silex/silex": "~1.1"
+	}
+}
